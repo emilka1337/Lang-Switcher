@@ -1,0 +1,12 @@
+.cards-row {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    &:nth-child(1) {
+        margin-bottom: 25px;
+    }
+
+    @import "./cards";
+}

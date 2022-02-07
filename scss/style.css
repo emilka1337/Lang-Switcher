@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site-container .row-1 {
+  padding: 100px 0px;
+}
+
+.site-container .row-1 .cards-row {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.site-container .row-1 .cards-row:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+.site-container .row-1 .cards-row .card {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.site-container .row-1 .cards-row .card h3 {
+  font-size: 30px;
+}
+
+.site-container .row-1 .cards-row .card p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.site-container .row-1 .cards-row .card.flex-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.site-container .row-1 .cards-row .blue-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  background-color: #99ceff;
+  width: 66%;
+}
+
+.site-container .row-1 .cards-row .blue-card .blue-card-left h3 {
+  color: #0084ff;
+  font-size: 30px;
+}
+
+.site-container .row-1 .cards-row .blue-card .blue-card-left p {
+  color: #3279bb;
+}
+
+.site-container .row-1 .cards-row .blue-card .blue-card-left button {
+  background: #0084ff;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.site-container .row-1 .cards-row .blue-card .blue-card-left button span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.site-container .row-1 .cards-row .blue-card .blue-card-left button:hover {
+  background: #fff;
+  color: #0084ff;
+}
+
+.site-container .row-1 .cards-row .blue-card .blue-card-right img {
+  width: 100%;
+}
+
+.site-container .row-1 .cards-row .green-card {
+  background: #b3e9cb;
+  width: 32%;
+}
+
+.site-container .row-1 .cards-row .green-card h3,
+.site-container .row-1 .cards-row .green-card span {
+  color: #54c788;
+}
+
+.site-container .row-1 .cards-row .green-card span {
+  font-size: 100px;
+}
+
+.site-container .row-1 .cards-row .green-card h3 {
+  font-size: 30px;
+}
+
+.site-container .row-1 .cards-row .green-card p {
+  color: #529671;
+}
+
+.site-container .row-1 .cards-row .red-card {
+  width: 32%;
+  background: #ffbfbf;
+}
+
+.site-container .row-1 .cards-row .red-card h3,
+.site-container .row-1 .cards-row .red-card span {
+  color: #ff8a8a;
+}
+
+.site-container .row-1 .cards-row .red-card span {
+  font-size: 80px;
+}
+
+.site-container .row-1 .cards-row .red-card p {
+  color: #9e5d5d;
+}
+
+.site-container .row-1 .cards-row .yellow-card {
+  width: 32%;
+  background: #ffddab;
+}
+
+.site-container .row-1 .cards-row .yellow-card h3, .site-container .row-1 .cards-row .yellow-card span {
+  color: #ffc166;
+}
+
+.site-container .row-1 .cards-row .yellow-card span {
+  font-size: 100px;
+}
+
+.site-container .row-1 .cards-row .yellow-card p {
+  color: #a68454;
+}
+
+.site-container .row-1 .cards-row .purple-card {
+  width: 32%;
+  background: #c3c1f1;
+}
+
+.site-container .row-1 .cards-row .purple-card h3, .site-container .row-1 .cards-row .purple-card span {
+  color: #9693e6;
+}
+
+.site-container .row-1 .cards-row .purple-card span {
+  font-size: 100px;
+}
+
+.site-container .row-1 .cards-row .purple-card p {
+  color: #676597;
+}
+
+.site-container .langs {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+/*# sourceMappingURL=style.css.map */

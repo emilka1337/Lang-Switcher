@@ -1,0 +1,143 @@
+.card {
+    border-radius: 20px;
+    padding: 20px;
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    &.flex-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.blue-card {
+    display: flex;
+    flex-direction: row !important;
+    background-color: #99ceff;
+    width: 66%;
+
+    .blue-card-left {
+        h3 {
+            color: #0084ff;
+            font-size: 30px;
+        }
+
+        p {
+            color: #3279bb;
+        }
+
+        button {
+            background: #0084ff;
+            color: #fff;
+            padding: 10px 50px;
+            border: none;
+            border-radius: 50px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: 200ms;
+
+            span:nth-child(1) {
+                margin-right: 10px;
+            }
+
+            &:hover {
+                background: #fff;
+                color: #0084ff;
+            }
+        }
+    }
+
+    .blue-card-right {
+
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.green-card {
+    background: #b3e9cb;
+    width: 32%;
+
+    h3,
+    span {
+        color: #54c788;
+    }
+
+    span {
+        font-size: 100px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        color: #529671;
+    }
+}
+
+.red-card {
+    width: 32%;
+    background: #ffbfbf;
+
+    h3,
+    span {
+        color: #ff8a8a;
+    }
+
+    span {
+        font-size: 80px;
+    }
+
+    p {
+        color: #9e5d5d;
+    }
+}
+
+.yellow-card {
+    width: 32%;
+    background: #ffddab;
+
+    h3, span {
+        color: #ffc166;
+    }
+
+    span {
+        font-size: 100px;
+    }
+
+    p {
+        color: #a68454;
+    }
+}
+
+.purple-card {
+    width: 32%;
+    background: #c3c1f1;
+
+    h3, span {
+        color: #9693e6;
+    }
+
+    span {
+        font-size: 100px;
+    }
+
+    p {
+        color: #676597;
+    }
+}
